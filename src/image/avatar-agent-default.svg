@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <clipPath id="clip-avatar">
+      <rect width="65" height="65"/>
+    </clipPath>
+  </defs>
+  <g id="avatar" clip-path="url(#clip-avatar)">
+    <rect id="_250x250" data-name="250x250" width="61" height="61" rx="30.5" transform="translate(2 2)" fill="#f8f8f8"/>
+    <g id="Icon_User_Two-Tone_Emotions_Happy_" data-name="Icon/User/Two-Tone/Emotions/Happy " transform="translate(15 15)">
+      <g id="Icon" transform="translate(2.917 2.917)">
+        <path id="Path" d="M14.583,0A14.583,14.583,0,1,0,29.167,14.583,14.583,14.583,0,0,0,14.583,0Z" fill="#be0f89" opacity="0.5"/>
+        <path id="Path-2" data-name="Path" d="M11.958.583a1.458,1.458,0,0,1,2.333,1.75A8.942,8.942,0,0,1,12.433,4.1,8.634,8.634,0,0,1,7.292,5.833,8.634,8.634,0,0,1,2.15,4.1,8.942,8.942,0,0,1,.292,2.333,1.458,1.458,0,0,1,2.625.583,6.2,6.2,0,0,0,3.866,1.737,5.762,5.762,0,0,0,7.292,2.917a5.762,5.762,0,0,0,3.426-1.179A6.992,6.992,0,0,0,11.771.809Z" transform="translate(7.292 14.583)" fill="#be0f89"/>
+      </g>
+    </g>
+  </g>
+</svg>
