@@ -1,7 +1,8 @@
 .main-title-mobile-size{
     background-color: #0c0e3c;
     padding: 10px 15px;
-    padding-top: 55px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 .first-title-mobile-size{
     font-size: 12px;
@@ -35,9 +36,9 @@
 }
 .main-title{
     background-color: #0c0e3c;
-    padding-top: 60px;
+    padding-top: 160px;
     padding-right: 14%;
-    padding-bottom: 40px;
+    padding-bottom: 200px;
 }
 .first-title{
     color: #FFFFFF;
