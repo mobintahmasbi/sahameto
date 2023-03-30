@@ -9,12 +9,12 @@ function MainHeader() {
         </div>
         <hr className="header-divider" />
         <div className="second-sec">
-          <i class="material-icons searchicon">search</i>
+          <i className="material-icons searchicon">search</i>
           <input type="text" className="searchinwebsite" placeholder="جستجو بین +500 تریدر و 15 ارزدیجیتال و همه نمادهای بورسی" />
           <div className="expand-area">
             <div className="expand">
               همه
-              <i class="material-icons">expand_more</i>            
+              <i className="material-icons">expand_more</i>            
             </div>            
           </div>
         </div>
@@ -33,7 +33,7 @@ function MainHeader() {
             </li>
             <li className="header-option more">
                 بیتشر
-                <i class="material-icons">expand_more</i>   
+                <i className="material-icons">expand_more</i>   
             </li>
         </div>
         <hr className="header-divider" />

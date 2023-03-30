@@ -1,0 +1,35 @@
+.main-title-mobile-size{
+    background-color: #0c0e3c;
+    padding: 10px 15px;
+    padding-top: 55px;
+}
+.first-title-mobile-size{
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.easy{
+    color: #10edc5;
+}
+.second-title-mobile-size{
+    padding: 10px 15px;
+    padding-top: 40px;
+}
+.second-t-sec-mobile-size{
+    color: #FFFFFF;
+    font-size: 13px;
+    text-align: center;
+    line-height: 28px;
+}
+.start-funding{
+    margin: auto;
+    margin-top: 23px;
+    margin-bottom: 40px;
+    width: 60%;
+    text-align: center;
+    background-color: #10edc5;
+    padding: 15px 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: #10edc5 0px 22px 70px 4px;
+}

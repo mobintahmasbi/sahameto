@@ -12,17 +12,13 @@ function Header() {
   const [decider, setdecider] = useState(false);
 
   useEffect(() => {
-    if(widePos){
-        setdecider(true)
-    }else{
-        setdecider(false)
+    if (widePos) {
+      setdecider(true);
+    } else {
+      setdecider(false);
     }
-  }, [widePos])
-  return (
-    <>
-    {decider ? <MainHeader /> : <MobileHeader />}
-    </>
-  );
+  }, [widePos]);
+  return <>{decider ? <MainHeader /> : <MobileHeader />}</>;
 }
 
 export default Header;
