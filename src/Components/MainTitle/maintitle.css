@@ -33,3 +33,34 @@
     border-radius: 25px;
     box-shadow: #10edc5 0px 22px 70px 4px;
 }
+.main-title{
+    background-color: #0c0e3c;
+    padding-top: 60px;
+    padding-right: 14%;
+    padding-bottom: 40px;
+}
+.first-title{
+    color: #FFFFFF;
+}
+.second-title{
+    padding-top: 40px;
+}
+.first-t-sec{
+    font-size: 30px;
+}
+.second-t-sec{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: normal;
+}
+.start-funding-main-size{
+    width: 27%;
+    padding: 15px;
+    border-radius: 35px;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 28px;
+    font-weight: bold;
+    background-color: #10edc5;
+    box-shadow: #10edc5 0px 22px 70px 4px;
+}
