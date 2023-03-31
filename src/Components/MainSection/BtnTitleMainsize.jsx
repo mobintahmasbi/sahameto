@@ -1,14 +1,14 @@
 import { useState } from "react"
 
 
-function BtnTitle() {
+function BtnTitleMainsize() {
     
     const [handler, sethandler] = useState(true)
 
     return (
     <>
-        <div className="container-btns">
-            <div className={ handler ? "btn clicked": "btn notclicked"} onClick= {() => {
+        <div className="container-btns cb-main-size">
+            <div className={ handler ? "btn-main-size clicked": "btn-main-size notclicked"} onClick= {() => {
                 if(handler){
                     return
                 }else{
@@ -17,7 +17,7 @@ function BtnTitle() {
             } }>
                 سرمایه گذاری در بورس
             </div>
-            <div className={ handler ? "btn notclicked" : "btn clicked"} onClick= {() => {
+            <div className={ handler ? "btn-main-size notclicked" : "btn-main-size clicked"} onClick= {() => {
                 if(handler){
                     sethandler(false)
                 }else{
@@ -32,4 +32,4 @@ function BtnTitle() {
   
 }
 
-export default BtnTitle;
+export default BtnTitleMainsize;
