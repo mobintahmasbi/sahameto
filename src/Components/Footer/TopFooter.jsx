@@ -1,14 +1,14 @@
 import logoFooter from "../../image/logoFooter.svg";
 
-function TopFooter() {
+function TopFooter({ iswide }) {
   return (
     <>
       <div className="top-TopFooter">
-        <div className="right-tTF">
-          <div className="top-rtTF">{"سهمتو >"}</div>
+        <div className={iswide ?"right-tTF": "right-tTF right-tTF-ms"}>
+          <div className={iswide ? "top-rtTF":"hide"}>{"سهمتو >"}</div>
           <img src={logoFooter} alt="" className="bottom-rtTF" />
         </div>
-        <div className="middle-tTF">
+        <div className={iswide ?"middle-tTF": "hide"}>
           <div className="top-mtTF">
             <span className="newGeneration">نسل جدید</span> اپ ویندوز سهمتو:
           </div>
