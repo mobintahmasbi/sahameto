@@ -1,25 +1,25 @@
-import { useState } from "react"
 
 
-function BtnTitleMainsize() {
+
+function BtnTitleMainsize({ statusOfBtns, deciderForBtnTitles }) {
     
-    const [handler, sethandler] = useState(true)
 
     return (
     <>
         <div className="container-btns cb-main-size">
-            <div className={ handler ? "btn-main-size clicked": "btn-main-size notclicked"} onClick= {() => {
-                if(handler){
+            <div className={ deciderForBtnTitles ? "btn-main-size clicked": "btn-main-size notclicked"} onClick= {() => {
+                if(deciderForBtnTitles){
                     return
                 }else{
-                    sethandler(true)
+                    statusOfBtns(true)
+                    
                 }
             } }>
                 سرمایه گذاری در بورس
             </div>
-            <div className={ handler ? "btn-main-size notclicked" : "btn-main-size clicked"} onClick= {() => {
-                if(handler){
-                    sethandler(false)
+            <div className={ deciderForBtnTitles ? "btn-main-size notclicked" : "btn-main-size clicked"} onClick= {() => {
+                if(deciderForBtnTitles){
+                    statusOfBtns(false)
                 }else{
                     return
                 }
