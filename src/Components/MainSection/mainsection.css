@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     margin-top: -128px;
+    margin-bottom: 50px;
 }
 
 .Main-section-coin-part {
@@ -67,6 +68,7 @@
     width: 85%;
     background-color: #FFFFFF;
     display: flex;
+    flex-wrap: wrap;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding-top: 60px;
     border-top: 4px solid #10edc5;
@@ -207,10 +209,11 @@
     margin-top: 30px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-  rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-   rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.mobilesize-mp{
+
+.mobilesize-mp {
     width: 97%;
     background-color: #FFFFFF;
     display: flex;
@@ -222,20 +225,68 @@
 }
 
 .rightside-mp-ms,
-.leftside-mp-ms{
+.leftside-mp-ms {
     width: 100%;
 }
-.maintite-rightside-mp-ms{
+
+.maintite-rightside-mp-ms {
     font-size: 18px;
     font-weight: bold;
     padding-right: 27px;
 }
-.title-rightside-mp-ms{
+
+.title-rightside-mp-ms {
     font-size: 14px;
     padding-right: 27px;
 }
-.partdivider-ms{
+
+.partdivider-ms {
     width: 90%;
     border-top: 2px dotted black;
     margin: 10px 5%;
+}
+
+.Explaination {
+    margin-top: 80px;
+}
+
+.title-of-explaination {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.container-of-body-Ex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.traderimg {
+    width: 380px;
+    height: 250px;
+    padding-left: 60px;
+}
+
+.ExEx {
+    width: 60%;
+    padding-right: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.startNow-Ex {
+    width: 30%;
+    margin-right: 70px;
+    margin-top: 30px;
+    background-color: #0c0e3c;
+    color: #10edc5;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }

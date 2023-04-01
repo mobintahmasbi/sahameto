@@ -6,6 +6,7 @@ import Coins from "./Coins";
 import MainPart from "./MainPart";
 import "./mainsection.css";
 import MainPartMs from "./MainPartMs";
+
 function MainSection() {
   const [handleClick, sethandleClick] = useState(true);
   function changeHandleClick(changer) {
@@ -44,6 +45,7 @@ function MainSection() {
         ) : (
           <MainPartMs deciderForMainPart={handleClick} />
         )}
+        
       </div>
     </>
   );

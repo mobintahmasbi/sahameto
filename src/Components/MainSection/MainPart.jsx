@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import Explaination from "./Explaination";
 function MainPart({ deciderForMainPart }) {
   const [values, setvalues] = useState([432, 12, 2]);
   useEffect(() => {
@@ -171,6 +171,7 @@ function MainPart({ deciderForMainPart }) {
           </div>
           <div className="leftside-mp-btn">همین الان شروع کن</div>
         </div>
+        <Explaination />
       </div>
     </>
   );
