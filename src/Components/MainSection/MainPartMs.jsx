@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Explaination from "./Explaination";
 
 function MainPartMs({ deciderForMainPart }) {
   const [values, setvalues] = useState([432, 12, 2]);
@@ -170,6 +171,7 @@ function MainPartMs({ deciderForMainPart }) {
             </div>
           </div>
         </div>
+        <Explaination isWide= {false} />
       </div>
     </>
   );

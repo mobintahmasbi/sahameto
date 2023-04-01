@@ -171,7 +171,7 @@ function MainPart({ deciderForMainPart }) {
           </div>
           <div className="leftside-mp-btn">همین الان شروع کن</div>
         </div>
-        <Explaination />
+        <Explaination isWide= {true} />
       </div>
     </>
   );

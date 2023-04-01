@@ -254,27 +254,46 @@
     margin-bottom: 30px;
     text-align: center;
 }
-
+.toEx-ms{
+    font-size: 25px;
+}
 .container-of-body-Ex {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 10px 40px;
 }
-
+.cofbEx-ms{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25px;
+    text-align: justify;
+}
 .traderimg {
     width: 380px;
     height: 250px;
     padding-left: 60px;
 }
-
+.traderimg-ms{
+    width: 80%;
+    height: 250px;
+    padding-left: 0;
+    margin-right: 20px;
+    margin-top: 35px;
+}
 .ExEx {
     width: 60%;
     padding-right: 50px;
     font-size: 16px;
     font-weight: bold;
 }
-
+.ExEx-ms{
+    width: 90%;
+    font-weight: bold;
+}
 .startNow-Ex {
     width: 30%;
     margin-right: 70px;
@@ -289,4 +308,8 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.startNow-Ex-ms{
+    width: 80%;
+    margin-right: 20px;
 }
