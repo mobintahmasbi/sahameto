@@ -3,6 +3,7 @@ import { useMediaQuery } from "react-responsive";
 import BtnTitle from "./BtnTitle";
 import BtnTitleMainsize from "./BtnTitleMainsize";
 import Coins from "./Coins";
+import MainPart from "./MainPart";
 import "./mainsection.css"
 function MainSection() {
     
@@ -25,6 +26,7 @@ function MainSection() {
             <div className="Main-section">
                 <Coins widepos={widePos} />
                 { decider ? <BtnTitleMainsize/> : <BtnTitle/> }
+                <MainPart/>
             </div>
         </>
      );
