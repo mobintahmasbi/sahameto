@@ -5,6 +5,7 @@ import BtnTitleMainsize from "./BtnTitleMainsize";
 import Coins from "./Coins";
 import MainPart from "./MainPart";
 import "./mainsection.css";
+import MainPartMs from "./MainPartMs";
 function MainSection() {
   const [handleClick, sethandleClick] = useState(true);
   function changeHandleClick(changer) {
@@ -23,7 +24,6 @@ function MainSection() {
     }
   }, [widePos]);
 
-
   return (
     <>
       <div className="Main-section">
@@ -39,7 +39,11 @@ function MainSection() {
             statusOfBtns={changeHandleClick}
           />
         )}
-        <MainPart deciderForMainPart={handleClick} />
+        {decider ? (
+          <MainPart deciderForMainPart={handleClick} />
+        ) : (
+          <MainPartMs deciderForMainPart={handleClick} />
+        )}
       </div>
     </>
   );

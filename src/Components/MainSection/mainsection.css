@@ -210,3 +210,32 @@
   rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+.mobilesize-mp{
+    width: 97%;
+    background-color: #FFFFFF;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-top: 30px;
+    border-top: 4px solid #10edc5;
+    flex-direction: column;
+
+}
+
+.rightside-mp-ms,
+.leftside-mp-ms{
+    width: 100%;
+}
+.maintite-rightside-mp-ms{
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 27px;
+}
+.title-rightside-mp-ms{
+    font-size: 14px;
+    padding-right: 27px;
+}
+.partdivider-ms{
+    width: 90%;
+    border-top: 2px dotted black;
+    margin: 10px 5%;
+}
